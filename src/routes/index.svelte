@@ -1,5 +1,5 @@
 <script>
-	import successkid from 'images/successkid.jpg';
+	import logo from '../assets/prolebox.jpg';
 </script>
 
 <style>
@@ -40,11 +40,11 @@
 	<title>Sapper project template</title>
 </svelte:head>
 
-<h1>Great success!</h1>
+<h1>Hype Test</h1>
 
 <figure>
-	<img alt="Success Kid" src="{successkid}">
-	<figcaption>Have fun with Sapper!</figcaption>
+	<img alt="Success Kid" src="{logo}">
+	<figcaption>Are you a sneakerhead? Lets put that to the test!</figcaption>
 </figure>
 
-<p><strong>Try editing this file (src/routes/index.svelte) to test live reloading.</strong></p>
+<p><strong>Lets put that to the test!</strong></p>
