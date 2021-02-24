@@ -1,6 +1,6 @@
 <script>
     import Box from "../components/Box.svelte";
-    let shoe1 = '';
+    let shoe1, shoe2, shoe3 = '';
 </script>
 
 <style>
@@ -33,7 +33,7 @@
     <p>No. 1</p>
     <input type="text" placeholder="Dusty Jordan 1" bind:value={shoe1} >
     <p>No. 2</p>
-    <input type="text" placeholder="Nike Dunk Low Pine Green">
+    <input type="text" placeholder="Nike Dunk Low Pine Green" bind:value={shoe2} >
     <p>No. 3</p>
-    <input type="text" placeholder="Odd Future Sk8 Hi">
+    <input type="text" placeholder="Odd Future Sk8 Hi" bind:value={shoe3}>
 </Box>
