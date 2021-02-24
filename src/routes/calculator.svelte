@@ -1,6 +1,10 @@
 <script>
     import Box from "../components/Box.svelte";
     let shoe1, shoe2, shoe3 = '';
+
+    function handlesubmit() {
+        console.log("Submit most definitely not handled yet");
+    }
 </script>
 
 <style>
@@ -13,6 +17,7 @@
 		font-size: 2.3em;
 		text-transform: uppercase;
 		font-weight: 300;
+        margin-bottom: 1.5em;
 	}
 
     input {
@@ -29,7 +34,10 @@
         color: bisque;
         display: block;
         margin-top: 1em;
+        border-radius: 10px;
+        font-size: 1em;
         background-color: rgba(34, 10, 122, 0.719);
+        font-weight: 300;
     }
 </style>
 
@@ -47,5 +55,5 @@
     <p>No. 3</p>
     <input type="text" placeholder="Odd Future Sk8 Hi" bind:value={shoe3}>
 
-    <button>Run the numbers</button>
+    <button on:click={handlesubmit} >Run the Numbers</button>
 </Box>
