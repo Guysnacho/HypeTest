@@ -66,4 +66,4 @@
 </figure>
 
 <p><strong>Lets put that to the test!</strong></p>
-<a aria-current="Calculator" href="blog" ><button>Begin</button></a>
+<a aria-current="page" href="blog" ><button>Begin</button></a>
