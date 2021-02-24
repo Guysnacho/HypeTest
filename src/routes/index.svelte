@@ -1,6 +1,5 @@
 <script>
 	import logo from '../assets/prolebox.jpg';
-	import Box from '../components/Box.svelte';
 </script>
 
 <style>
@@ -66,4 +65,4 @@
 </figure>
 
 <p><strong>Lets put that to the test!</strong></p>
-<a aria-current="page" href="blog" ><button>Begin</button></a>
+<a aria-current="page" href="calculator" ><button>Begin</button></a>
