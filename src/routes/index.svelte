@@ -38,7 +38,7 @@
 		}
 	}
 
-	@media (min-width: 320px) {
+	@media (max-width: 320px) {
 		button {
 			margin-left: 15%;
 		}
