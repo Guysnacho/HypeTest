@@ -1,5 +1,6 @@
 <script>
 	import logo from '../assets/prolebox.jpg';
+	import Box from '../components/Box.svelte';
 </script>
 
 <style>
@@ -33,11 +34,28 @@
 		h1 {
 			font-size: 4em;
 		}
+		button {
+			margin-left: 41%;
+		}
+	}
+
+	@media (min-width: 320px) {
+		button {
+			margin-left: 15%;
+		}
+	}
+
+	button {
+		padding: 7px 45px;
+		font-size: small;
+		border-radius: 15px;
+		color: blanchedalmond;
+		background-color: rgb(27, 22, 92);
 	}
 </style>
 
 <svelte:head>
-	<title>Sapper project template</title>
+	<title>Hype Test</title>
 </svelte:head>
 
 <h1>Hype Test</h1>
@@ -48,3 +66,4 @@
 </figure>
 
 <p><strong>Lets put that to the test!</strong></p>
+<a aria-current="Calculator" href="blog" ><button>Begin</button></a>
