@@ -1,5 +1,6 @@
 <script>
     import Box from "../components/Box.svelte";
+    const SneaksAPI = require('sneaks-api');
     let shoe1, shoe2, shoe3 = '';
 
     function handlesubmit() {
