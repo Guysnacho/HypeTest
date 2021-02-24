@@ -21,6 +21,16 @@
         margin: auto;
         align-content: center;
     }
+
+    button {
+        margin: auto;
+        border: none;
+        padding: 5px 15px;
+        color: bisque;
+        display: block;
+        margin-top: 1em;
+        background-color: rgba(34, 10, 122, 0.719);
+    }
 </style>
 
 <svelte:head>
@@ -36,4 +46,6 @@
     <input type="text" placeholder="Nike Dunk Low Pine Green" bind:value={shoe2} >
     <p>No. 3</p>
     <input type="text" placeholder="Odd Future Sk8 Hi" bind:value={shoe3}>
+
+    <button>Run the numbers</button>
 </Box>
