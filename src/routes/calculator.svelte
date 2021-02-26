@@ -1,9 +1,16 @@
 <script>
     import Box from "../components/Box.svelte";
+    const SneaksAPI = require('sneaks-api');
+    const sneaks = new SneaksAPI();
+
     let shoe1, shoe2, shoe3 = '';
 
     function handlesubmit() {
-        console.log("Submit most definitely not handled yet");
+        console.log(
+            sneaks.getMostPopular(function(err, products){
+                console.log(products)
+            })
+        )
     }
 </script>
 
