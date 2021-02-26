@@ -3,14 +3,21 @@
     const SneaksAPI = require('sneaks-api');
     const sneaks = new SneaksAPI();
 
+
+    import axios from "axios";
+
+    const url = "http://localhost:5000/home"
+
     let shoe1, shoe2, shoe3 = '';
 
     function handlesubmit() {
-        console.log(
-            sneaks.getMostPopular(function(err, products){
-                console.log(products)
+        axios.get(url)
+            .then(function (response) {
+                console.log(response)
             })
-        )
+            .catch(function (error) {
+                console.log(error)
+            })
     }
 </script>
 
